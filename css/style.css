@@ -212,7 +212,8 @@
 
 .oculto {
   margin: 32px 32px 48px;
-  width: 90%; }
+  width: 90%;
+  display: none; }
 
 .footer-container {
   background-color: #7CDBD5;
