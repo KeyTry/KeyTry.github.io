@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "Titles";
+  src: url("../fonts/Abel-Regular.eot");
+  src: url("../fonts/Abel-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Abel-Regular.woff") format("woff"), url("../fonts/Abel-Regular.woff2") format("woff2"), url("../fonts/Abel-Regular.ttf") format("truetype"), url("../fonts/Abel-Regular.svg#Titles") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Body";
+  src: url("../fonts/Ubuntu-Regular.eot");
+  src: url("../fonts/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Regular.woff") format("woff"), url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.ttf") format("truetype"), url("../fonts/Ubuntu-Regular.svg#Body") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Body-Italic";
+  src: url("../fonts/Ubuntu-Italic.eot");
+  src: url("../fonts/Ubuntu-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Italic.woff") format("woff"), url("../fonts/Ubuntu-Italic.woff2") format("woff2"), url("../fonts/Ubuntu-Italic.ttf") format("truetype"), url("../fonts/Ubuntu-Italic.svg#Body-Italic") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Body-Bold";
+  src: url("../fonts/Ubuntu-Bold.eot");
+  src: url("../fonts/Ubuntu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.ttf") format("truetype"), url("../fonts/Ubuntu-Bold.svg#Body-Bold") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Body-BoldItalic";
+  src: url("../fonts/Ubuntu-BoldItalic.eot");
+  src: url("../fonts/Ubuntu-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Ubuntu-BoldItalic.woff") format("woff"), url("../fonts/Ubuntu-BoldItalic.woff2") format("woff2"), url("../fonts/Ubuntu-BoldItalic.ttf") format("truetype"), url("../fonts/Ubuntu-BoldItalic.svg#Body-BoldItalic") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+.divider {
+  height: 3px;
+  background-color: #F9BE02;
+  z-index: 1; }
+
+.square {
+  height: 128px;
+  width: 128px;
+  background-color: #F9BE02;
+  z-index: 2;
+  margin: auto;
+  position: relative;
+  bottom: 64px;
+  overflow: hidden;
+  border-radius: 64px; }
+
+.smaller-square {
+  position: relative;
+  width: 58%;
+  height: 58%;
+  margin: 10% auto auto;
+  background: #F9BE02;
+  border-right: solid 24px #FF9829;
+  border-bottom: solid 24px #FF9829; }
+
+.body {
+  background-color: #02C8A7; }
+
+.texts {
+  background-color: #F53240;
+  padding-top: 64px;
+  margin: 0;
+  position: relative;
+  color: #fff; }
+  .texts h1,
+  .texts h2,
+  .texts h3,
+  .texts h4,
+  .texts h5 {
+    font-family: 'Titles';
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .texts b,
+  .texts h6,
+  .texts i,
+  .texts li,
+  .texts p,
+  .texts ul {
+    font-family: 'Body';
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .texts i {
+    font-family: 'Body-Italic'; }
+  .texts b {
+    font-family: 'Body-Bold'; }
+  .texts b > i,
+  .texts i > b {
+    font-family: 'Body-BoldItalic'; }
+  .texts h1 {
+    font-size: 10.28em; }
+  .texts h2 {
+    font-size: 6.354em; }
+  .texts h3 {
+    font-size: 3.927em; }
+  .texts h4 {
+    font-size: 2.427em; }
+  .texts h5 {
+    font-size: 1.5em; }
+  .texts h6 {
+    font-size: 0.927em; }
+  .texts b,
+  .texts i,
+  .texts li,
+  .texts p,
+  .texts ul {
+    font-size: 1.5em; }
+
+.paragraphs {
+  display: inline-block;
+  text-align: center; }
+  .paragraphs h1,
+  .paragraphs h2,
+  .paragraphs h3,
+  .paragraphs h4,
+  .paragraphs h5,
+  .paragraphs h6,
+  .paragraphs p {
+    font-family: 'Titles';
+    color: #ffffff;
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .paragraphs h1 {
+    font-size: 8.415em; }
+  .paragraphs h2 {
+    font-size: 6.313em; }
+  .paragraphs h3 {
+    font-size: 4.736em; }
+
+.big-title h1,
+.big-title h2,
+.big-title h3,
+.big-title h4,
+.big-title h5,
+.big-title h6,
+.big-title p {
+  font-family: 'Titles';
+  color: #ffffff;
+  line-height: 1.618em;
+  margin: 1em 0; }
+
+.big-title h1 {
+  font-size: 8.415em; }
+
+.big-title h2 {
+  font-size: 6.313em; }
+
+.big-title h3 {
+  font-size: 4.736em; }
+
+.block {
+  background-color: #06BE49;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.8; }
+  .block h1,
+  .block h2,
+  .block h3,
+  .block h4,
+  .block h5 {
+    font-family: 'Titles';
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .block b,
+  .block h6,
+  .block i,
+  .block li,
+  .block p,
+  .block ul {
+    font-family: 'Body';
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .block i {
+    font-family: 'Body-Italic'; }
+  .block b {
+    font-family: 'Body-Bold'; }
+  .block b > i,
+  .block i > b {
+    font-family: 'Body-BoldItalic'; }
+  .block h1 {
+    font-size: 10.28em; }
+  .block h2 {
+    font-size: 6.354em; }
+  .block h3 {
+    font-size: 3.927em; }
+  .block h4 {
+    font-size: 2.427em; }
+  .block h5 {
+    font-size: 1.5em; }
+  .block h6 {
+    font-size: 0.927em; }
+  .block b,
+  .block i,
+  .block li,
+  .block p,
+  .block ul {
+    font-size: 1.5em; }
+
+.semana-title {
+  background-color: #0EE25D;
+  cursor: pointer;
+  padding: 32px; }
+  .semana-title h4 {
+    margin-left: 64px; }
+
+.semana-title:hover {
+  background-color: #F9BE02; }
+
+.oculto {
+  margin: 32px 32px 48px;
+  width: 90%; }
+
+.footer-container {
+  background-color: #7CDBD5;
+  color: #fff; }
+  .footer-container h1,
+  .footer-container h2,
+  .footer-container h3,
+  .footer-container h4,
+  .footer-container h5,
+  .footer-container h6,
+  .footer-container p {
+    font-family: 'Titles';
+    color: #ffffff;
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .footer-container h1 {
+    font-size: 8.415em; }
+  .footer-container h2 {
+    font-size: 6.313em; }
+  .footer-container h3 {
+    font-size: 4.736em; }
+
+.footer {
+  padding: 64px 0;
+  text-align: center; }
+  .footer p {
+    font-size: 2.369em; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.header-container {
+  background-color: #7CDBD5;
+  padding-top: 48px; }
+  .header-container h1,
+  .header-container h2,
+  .header-container h3,
+  .header-container h4,
+  .header-container h5,
+  .header-container h6,
+  .header-container p {
+    font-family: 'Titles';
+    color: #ffffff;
+    line-height: 1.618em;
+    margin: 1em 0; }
+  .header-container h1 {
+    font-size: 8.415em; }
+  .header-container h2 {
+    font-size: 6.313em; }
+  .header-container h3 {
+    font-size: 4.736em; }
+
+.header {
+  margin-bottom: 64px;
+  text-align: center; }
+
+button {
+  position: relative;
+  display: block;
+  border: 0;
+  cursor: pointer;
+  border-radius: 16px;
+  color: #fff;
+  background-color: #F9BE02;
+  font-family: 'Titles';
+  font-size: 3.927em;
+  box-shadow: 0 24px 0 0 #b68b00;
+  opacity: 0.9;
+  padding: 12px;
+  bottom: 32px;
+  margin: 24px; }
+
+button:active {
+  box-shadow: none;
+  top: 24px;
+  margin-bottom: 0; }
+
+button:hover {
+  opacity: 1; }
+
+button:active,
+button:focus {
+  outline: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+img {
+  float: right;
+  max-width: 42%;
+  max-height: auto;
+  border: solid 18px #F9BE02;
+  margin: 24px;
+  text-align: right;
+  margin-right: 92px;
+  border-radius: 3px; }
+
+.img-presentation {
+  float: left;
+  height: 256px; }
+
+a {
+  text-decoration: none; }

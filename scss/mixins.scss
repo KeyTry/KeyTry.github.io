@@ -1,0 +1,106 @@
+@import 'fontFace';
+@include fontFace( 'Titles','Abel-Regular');
+@include fontFace( 'Body','Ubuntu-Regular');
+@include fontFace( 'Body-Italic','Ubuntu-Italic');
+@include fontFace( 'Body-Bold','Ubuntu-Bold');
+@include fontFace( 'Body-BoldItalic','Ubuntu-BoldItalic');
+@mixin titles {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        font-family: 'Titles';
+        color      : #ffffff;
+        line-height: 1.618em;
+        margin     : 1em 0;
+    }
+
+    h1 {
+        font-size: 8.415em;
+    }
+
+    h2 {
+        font-size: 6.313em;
+    }
+
+    h3 {
+        font-size: 4.736em;
+    }
+}
+@mixin bodies {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'Titles';
+        line-height: 1.618em;
+        margin     : 1em 0;
+    }
+
+    b,
+    h6,
+    i,
+    li,
+    p,
+    ul {
+        font-family: 'Body';
+        line-height: 1.618em;
+        margin     : 1em 0;
+    }
+
+    i {
+        font-family: 'Body-Italic';
+    }
+
+    b {
+        font-family: 'Body-Bold';
+    }
+
+    b > i,
+    i > b {
+        font-family: 'Body-BoldItalic';
+    }
+
+    h1 {
+        font-size: 10.28em;
+    }
+
+    h2 {
+        font-size: 6.354em;
+    }
+
+    h3 {
+        font-size: 3.927em;
+    }
+
+    h4 {
+        font-size: 2.427em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    h6 {
+        font-size: 0.927em;
+    }
+
+    b,
+    i,
+    li,
+    p,
+    ul {
+        font-size: 1.5em;
+    }
+}
+@mixin blokk {
+    line-height: 28px;
+}
+@mixin tittles {
+    cursor : pointer;
+    padding: 32px;
+}
