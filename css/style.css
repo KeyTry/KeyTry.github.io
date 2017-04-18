@@ -73,8 +73,8 @@
   .texts h4,
   .texts h5 {
     font-family: 'Titles';
-    line-height: 1em;
-    margin: 1em 0; }
+    line-height: 1.5em;
+    margin: 0.5em 0; }
   .texts b,
   .texts h6,
   .texts i,
@@ -82,7 +82,7 @@
   .texts p,
   .texts ul {
     font-family: 'Body';
-    line-height: 1em;
+    line-height: 1.5em;
     margin: 1em 0; }
   .texts i {
     font-family: 'Body-Italic'; }
@@ -163,8 +163,8 @@
   .block h4,
   .block h5 {
     font-family: 'Titles';
-    line-height: 1em;
-    margin: 1em 0; }
+    line-height: 1.5em;
+    margin: 0.5em 0; }
   .block b,
   .block h6,
   .block i,
@@ -172,7 +172,7 @@
   .block p,
   .block ul {
     font-family: 'Body';
-    line-height: 1em;
+    line-height: 1.5em;
     margin: 1em 0; }
   .block i {
     font-family: 'Body-Italic'; }
@@ -325,7 +325,8 @@ img {
   text-align: right;
   border-radius: 3px;
   display: inline-block;
-  margin-left: 32px; }
+  margin-left: 32px;
+  margin-top: 64px; }
 
 .img-presentation {
   float: left;
